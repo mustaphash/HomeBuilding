@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#WebApi\\HomeBuild\\HomeBuild\\HomeBuild.csproj": {}
+    "E:\\Git\\HomeBuilding\\src\\HomeBuild\\HomeBuild.csproj": {}
   },
   "projects": {
-    "E:\\C#WebApi\\HomeBuild\\HomeBuild\\HomeBuild.csproj": {
+    "E:\\Git\\HomeBuilding\\src\\HomeBuild\\HomeBuild.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#WebApi\\HomeBuild\\HomeBuild\\HomeBuild.csproj",
+        "projectUniqueName": "E:\\Git\\HomeBuilding\\src\\HomeBuild\\HomeBuild.csproj",
         "projectName": "HomeBuild",
-        "projectPath": "E:\\C#WebApi\\HomeBuild\\HomeBuild\\HomeBuild.csproj",
+        "projectPath": "E:\\Git\\HomeBuilding\\src\\HomeBuild\\HomeBuild.csproj",
         "packagesPath": "C:\\Users\\Mustafa\\.nuget\\packages\\",
-        "outputPath": "E:\\C#WebApi\\HomeBuild\\HomeBuild\\obj\\",
+        "outputPath": "E:\\Git\\HomeBuilding\\src\\HomeBuild\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

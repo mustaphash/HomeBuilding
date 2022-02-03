@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qmSWKOLA0bBhDYgb8JJJrOInkXm3YE4BublC/WRbvmv/ztlifR82BJVeBYnCCkvgsJnCU5S/xXKpbEErUu4eew==",
+  "dgSpecHash": "MHSX0LA2hnCyJc/usY82e8va34j9kjEw8Ew8l6IID8erSc0k7qtiqV3zp2c3/XLSQKHayi+L+eWukR13pKpbyQ==",
   "success": true,
-  "projectFilePath": "E:\\C#WebApi\\HomeBuild\\Core\\Core.csproj",
+  "projectFilePath": "E:\\Git\\HomeBuilding\\src\\Core\\Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
