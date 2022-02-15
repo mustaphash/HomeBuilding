@@ -10,8 +10,6 @@ namespace DAL.Configs
         {
             builder.HasKey(b => b.Id);
 
-            builder.Property(b => b.Name).HasMaxLength(50).IsRequired();
-            builder.Property(b => b.Type).IsRequired();
             builder.Property(b => b.StartDate).IsRequired();
             builder.Property(b => b.EndDate).IsRequired();
         }

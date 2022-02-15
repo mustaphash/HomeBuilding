@@ -10,8 +10,6 @@ namespace DAL.Configs
         {
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Name).IsRequired();
-            builder.Property(x => x.TotalEmployee).IsRequired();
         }
     }
 }

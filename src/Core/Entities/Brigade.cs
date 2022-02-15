@@ -3,7 +3,8 @@
     public class Brigade
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public int TotalEmployee { get; set; }
+        public int EmployeeId { get; set; }
+        public Employee Employee { get; set; }
+        public ICollection<Building> Buildings { get; set; }
     }
 }

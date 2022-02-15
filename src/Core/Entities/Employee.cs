@@ -7,5 +7,6 @@
         public string LastName { get; set; }
         public string Adress { get; set; }
         public int PhoneNumber { get; set; }
+        public ICollection<Brigade> Brigades { get; set; }
     }
 }
