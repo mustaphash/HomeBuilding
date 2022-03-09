@@ -16,7 +16,7 @@ namespace HomeBuild.Controllers
             _getAllBuildingsQuery = getAllBuildingsQuery;
         }
 
-        [HttpGet(Name = "GetAllBuildings")]
+        [HttpGet]
         public async Task<IActionResult> GetAllBuildings()
         {
             IList<Building> buildings = await _getAllBuildingsQuery.HandleAsync(new GetAllBuildingsQuery());
