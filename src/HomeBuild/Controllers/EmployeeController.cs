@@ -26,8 +26,9 @@ namespace HomeBuild.Controllers
         public async Task<IActionResult> GetAllEmployees()
         {
             IList<Employee> employees = await _getAllEmployeesQuery.HandleAsync(new GetAllEmployeesQuery());
+            var employeeResponse = employees.Select(e => new EmployeeResponseModel(e));
 
-            return Ok(employees);
+            return Ok(employeeResponse);
         }
 
         [HttpPost]
